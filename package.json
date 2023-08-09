@@ -1,0 +1,20 @@
+{
+  "name": "@xyzu/postcss-dvw-to-vw",
+  "version": "1.0.0",
+  "description": "postcss dvw to vw plugin",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xyzuxyz/postcss-dvw-to-vw.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xyzuxyz/postcss-dvw-to-vw/issues"
+  },
+  "homepage": "https://github.com/xyzuxyz/postcss-dvw-to-vw#readme"
+}
