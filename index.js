@@ -12,7 +12,7 @@ export default (option={}) => {
         prepare (result) {
             return {
                 Declaration (node) {
-                    const match =node.value.match(/\d+(\.\d+)?option.unit/g)
+                    const match =node.value.match(eval('/\\d+(\\.\\d+)?'+option.unit+'/g'))
                     if(match) {
                         for(let i = 0; i < match.length; i++) {
                             node.value = node.value.replace(
